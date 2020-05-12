@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: rgb(248, 201, 209);
+}
+
+#speakBtn{
+    background-color: skyblue;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+  #speakBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#speakBtn:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+  
+#warning {
+    color: red;
+    display: none;
+    font-size: 1.4rem;
+}
+
+#note {
+    font-size: xx-small;
+    color: tomato;
+}
+
+select {
+    width: fit-content;
+    height: 30px;
+}
+
+input {
+    height: 20px;
+    width: 30px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+}
